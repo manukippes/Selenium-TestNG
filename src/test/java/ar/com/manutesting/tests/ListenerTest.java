@@ -9,11 +9,10 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import ar.com.manutesting.paginas.PaginaBase;
 import io.qameta.allure.Attachment;
 
 public class ListenerTest extends TestBase implements ITestListener {
-	private Logger log = LoggerFactory.getLogger(PaginaBase.class);
+	private Logger log = LoggerFactory.getLogger(ListenerTest.class);
 	
 	@Override		
     public void onFinish(ITestContext contexto) {					
